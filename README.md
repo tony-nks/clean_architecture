@@ -1,8 +1,8 @@
-In this project we implemented Database using flutter floor package, Networking using flutter Dio package and managed state using GetX package. 
+В этом проекте мы реализовали базу данных с помощью пакета flutter floor, сеть с использованием пакета flutter Dio и управляемое состояние с помощью пакета GetX.
 
-Here is some of its view...
 
-# Initializing our services
+
+# Инициализация наших сервисов
 
 ```
 void main() {
@@ -16,9 +16,9 @@ initServices() async {
 }
 ```
 
-# Networking
+# Подключение
 
-Calling and handling errors
+Вызов и обработка ошибок
 
 ```
 Future<dynamic> request(
@@ -61,7 +61,7 @@ Future<dynamic> request(
   }
 ```
 
-Calling from controller
+Вызовы с контроллера
 
 ```
 loadData() async {
@@ -94,7 +94,7 @@ loadData() async {
   }
 ```
 
-# Database
+# Базы данных
 
 ```
 @Database(version: 1, entities: [Person])
